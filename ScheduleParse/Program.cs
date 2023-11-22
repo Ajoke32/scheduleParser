@@ -7,7 +7,7 @@ using OpenQA.Selenium.Chrome;
 var driver = new ChromeDriver();
 var js = (IJavaScriptExecutor)driver;
 driver.Url  = "https://cabinet.ztu.edu.ua/site/login";
-const string login = ;
+const string login = "";
 const string password = "";
 Console.WriteLine("Wait when page loaded and press any key");
 Console.ReadKey();
